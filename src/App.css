@@ -1,0 +1,79 @@
+.home-cover {
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.animeitem {
+    margin-bottom: 10px;
+}
+
+.animeitem .item-poster {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin: 20px;
+}
+
+.animeitem .item-body {
+    padding: 5px;
+}
+
+.animeitem .poster-container {
+    height: 100%;
+    width: 100%;
+}
+
+.cover-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+}
+
+.page-container {
+    background: #121212;
+    height: 100vh;
+    width: 100%;
+}
+
+.page-title {
+    color: white;
+    opacity: 0.8;
+}
+
+.synopsis {
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.poster-title {
+    color: white;
+    font-size: 14px;
+}
+
+/* Overiding bootstrap */
+
+.navbar {
+    background: #282828;
+}
+
+.navbar-light .navbar-brand {
+    color: #D1C4E9;
+}
+
+.detail-title {
+    color: white;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.detail-text {
+    color: white;
+    font-weight: 300;
+}
